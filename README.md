@@ -1,15 +1,10 @@
 # ![React + Redux Example App](project-logo.png)
 
-> Example React + Redux codebase that adheres to the [RealWorld](https://github.com/gothinkster/realworld-example-apps) spec and API.
-
 # Redux codebase containing real world examples (CRUD, auth, advanced patterns, etc)
-Originally created for this [GH issue](https://github.com/reactjs/redux/issues/1353). The codebase is now feature complete and the RFC is open. **Your input is greatly appreciated; please submit bug fixes via pull requests & feedback via issues**.
+ The codebase is now feature complete and the RFC is open. **Your input is greatly appreciated; please submit bug fixes via pull requests & feedback via issues**.
 
-We're currently working on some docs for the codebase (explaining where functionality is located, how it works, etc) but most things should be self explanatory if you have a minimal understanding of React/Redux.
 
 ## Getting started
-
-You can view a live demo over at https://react-redux.realworld.io/
 
 To get the frontend running locally:
 
@@ -17,12 +12,9 @@ To get the frontend running locally:
 - `npm install` to install all req'd dependencies
 - `npm run watch` to have webpack bundle the JS files into /bin/main.js, then run `npm start`
 
-For convenience, we have a live API server running at https://conduit.productionready.io/api for the application to make requests against. You can view [the API spec here](https://github.com/GoThinkster/productionready/blob/master/API.md) which contains all routes & responses for the server. We'll release the backend code in a few weeks should anyone be interested in it.
-
 ## Functionality overview
 
-The example application is a social blogging site (i.e. a Medium.com clone) called "Conduit". It uses a custom API for all requests, including authentication. You can view a live demo over at https://redux.productionready.io/
-
+The example application is a social blogging site (i.e. a Medium.com clone)
 **General functionality:**
 
 - Authenticate users via JWT (login/signup pages + logout button on settings page)
@@ -58,7 +50,6 @@ The example application is a social blogging site (i.e. a Medium.com clone) call
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.  
-You can find the most recent version of this guide [here](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md).
 
 ## Table of Contents
 
